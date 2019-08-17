@@ -61,6 +61,7 @@ def self.new_from_db(array)
 end
 
 def self.find_by_name(array)
+  binding.pry
 end
 
 end
