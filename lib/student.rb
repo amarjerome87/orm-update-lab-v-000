@@ -60,7 +60,7 @@ def self.new_from_db(array)
   Student.new(array[0], array[1], array[2])
 end
 
-def self.find_by_name(array)
+def self.find_by_name(name)
   binding.pry
 end
 
