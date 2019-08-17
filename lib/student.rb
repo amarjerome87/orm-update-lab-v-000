@@ -1,4 +1,5 @@
 require_relative "../config/environment.rb"
+require 'pry'
 
 class Student
 
@@ -55,8 +56,8 @@ def self.create(name,grade)
 end
 
 def self.new_from_db(array)
-  student_attributes = array.join(',')
-  Student.new(student_attributes)
+  #binding.pry
+  Student.new(array[0], array[1], array[2])
 end
 
 
